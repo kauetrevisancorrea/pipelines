@@ -3,12 +3,11 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "react": "^16.0.0",
+    "react": "^16.0.0",y
     "react-dom": "^16.0.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "dev": "vite --host",
     "start": "react-scripts --openssl-legacy-provider start --host 0.0.0.0",
     "build": "react-scripts build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
